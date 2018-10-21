@@ -36,16 +36,16 @@ C, CC,  CCC,  CD,   D, DC,  DCC,  DCCC, CM,  M
 
 ```I,  IV, V,  IX, X,  XL, L,  LX, XC, CD,  D,    CM,    M```
 
-Get input number and check against constant numbers array if input can be divided by any numbers in constant array and should produce the remainder as Zero.If I can find it,just convert it into roman number.If there are remainders, check how many is remain and put it as an input, loop the remainder again and convert it to Roman numbers. 
+Get input number and check against constant numbers array if input can be divided by any numbers in constant array and remain ```Zero```. If I can find it,just convert it into Roman number.If there are remainders, check how many number is remained and put it as an input, loop the remainder again and convert it to Roman numbers. 
 
 # Possibilites:
 
-The input can be the same number or less than or greater than number in constant numbers array. Let's assume if the input is (8) which will be between 1 and 9. In that case, I will take the biggest number(divisor) which can divide the input (8).So, 1, 5 and 9. (5)is the biggest (divisor)number. 
+The input can be the same number or less than or greater than number in constant numbers array. Let's assume if the input is (8) which will be between 1 and 9. In that case, I will take the biggest number(divisor) which can divide the input number(8). So, number (5) is the biggest (divisor) number among the numbers 1, 5 and 9.  
 
 Eg. 8 / 5 = 1 , (3) 
 dividend ÷ divisor = quotient, (remainder)
 
-In the above example, I can convert number (5) to Roman (V). In order to find the exact remainder to be converted into Roman number, I will perform this.
+In the above example, I can convert number (5) to Roman (V) by passing romanNumber[bestDivisorIndexNo]. In order to find the exact remainder to be converted into Roman number, I will perform this.
 
 input - numbers[bestDivisorIndexNo]. I will then take remainder (3) as an input and do the same process above.
 
