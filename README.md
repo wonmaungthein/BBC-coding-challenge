@@ -48,3 +48,7 @@ dividend ÷ divisor = quotient, (remainder)
 In the above example, I can convert number (5) to Roman (V). In order to find the exact remainder to be converted into Roman number, I will perform this.
 
 input - numbers[bestDivisorIndexNo]. I will then take remainder (3) as an input and do the same process above.
+
+# Test Spec
+
+Test spec can be found [here](https://github.com/wonmaungthein/BBC-coding-challenge/blob/master/RomanNumberalGenerator.js)
